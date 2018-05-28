@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "plugin:vue/essential",
+    "standard"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+      "no-debugger": 0
+  }
+,  "globals": {
+    "devRequire": false,
+    "ElectronRemote": false,
+    "ElectronApp": false,
+    "VuexStore": false,
+    "ArticyUtils": false,
+    "ArticyBackend": false,
+    "ArticyEcsIds": false,
+    "ArticyEnums": false,
+    "Electron": false
+  }
+}

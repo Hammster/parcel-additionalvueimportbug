@@ -1,0 +1,25 @@
+{
+  "name": "electron-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "2.5.16",
+    "vuex": "3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "1.2.1",
+    "electron": "2.0.0",
+    "parcel-bundler": "1.8.1",
+    "vue-hot-reload-api": "2.3.0",
+    "vue-template-compiler": "2.5.16",
+    "prettier": "1.12.0"
+  },
+  "scripts": {
+    "build": "node parcelConfig.js",
+    "start": "electron src/main/index.js"
+  },
+  "resolutions": {
+    "@vue/component-compiler-utils/prettier": "1.12.1"
+  }
+}
